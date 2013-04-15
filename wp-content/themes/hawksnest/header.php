@@ -95,20 +95,27 @@
 
 		<a href="<?php echo home_url( '/' ); ?>">
 		<div id="head">
-		<div id="logo"></div>
         <a href="http://www.uiowa.edu/"><div id="dome"></div></a>
 		</div>
 		</a>
 	</div>
 
-		  <div id="nav">
-           <div id="access" role="navigation">
+		<div id="logo"></div>
+		<div id="nav">
+		<div id="nav-wrapper">
+           <div id="nav-left" role="navigation">
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
 				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content' ); ?>"><?php _e( 'Skip to content' ); ?></a></div>
 				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
-				<?php wp_nav_menu( array('menu' => 'primary' )); ?>
+				<?php wp_nav_menu( array('menu' => 'primary-left' )); ?>
 		  </div>
-		 </div>
-		  
+           <div id="nav-right" role="navigation">
+			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
+				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content' ); ?>"><?php _e( 'Skip to content' ); ?></a></div>
+				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
+				<?php wp_nav_menu( array('menu' => 'primary-right' )); ?>
+		  </div>
+		</div>
+		</div>
 		  
 		  

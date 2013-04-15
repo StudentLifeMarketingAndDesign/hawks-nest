@@ -45,7 +45,7 @@ get_header(); ?>
 					<!--<div id="home_pic">
 					 <img id="headerimg" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Iowa Hawksnest" />
 					</div>-->
-           			<div id="birdfeeder_logo"></div>
+           			<a href="news/"><div id="birdfeeder_logo"></div></a>
 
 			<?php
 			/* Run the loop to output the posts.

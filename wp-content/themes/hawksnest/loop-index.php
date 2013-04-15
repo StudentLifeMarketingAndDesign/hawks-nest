@@ -26,7 +26,7 @@ while ( have_posts() ) : the_post();
 endwhile;
 wp_reset_query();
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-query_posts(array('post__not_in' => get_option('sticky_posts'),'category_name' => 'birdfeeder', 'posts_per_page' => 9,'paged' => $paged ));
+query_posts(array('post__not_in' => get_option('sticky_posts'),'category_name' => 'birdfeeder', 'posts_per_page' => 3,'paged' => $paged ));
 while ( have_posts() ) : the_post();
 ?>
 <div class="post">
@@ -49,7 +49,7 @@ endwhile;
 
 ?>
 
-<div class="navigation"><p><?php posts_nav_link(); ?></p></div>
+<!--<div class="navigation"><p><?php posts_nav_link(); ?></p></div>-->
 
 <?php
 

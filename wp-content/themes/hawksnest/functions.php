@@ -175,4 +175,6 @@ if ( ! function_exists( 'customisetheme_admin_header_style' ) ) :
 endif;
 //Execute our custom theme functionality
 add_action( 'after_setup_theme', 'customisetheme_setup' );
+
+
 ?>

@@ -24,6 +24,7 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	height: 100%;
+	background-image:url('images/stripe.gif');
 }
 
 a{
@@ -74,6 +75,12 @@ h2 a:hover{
 h3 a:hover{
 	color: #fff9ab;
 	text-decoration: none;
+}
+
+.entry-title{
+	display: block;
+	clear: both;
+	margin: 10px 0 10px 0;
 }
 
 .post {
@@ -127,10 +134,12 @@ img {
 
 .wrapper {
 	padding-top:10px;
-	background-image:url('images/stripe.gif');
 	display: block;
 	height:100%;
 	padding-bottom: 25px;
+	background-image: url('images/bgimg.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .main{
 	margin:0 auto;
@@ -141,14 +150,17 @@ img {
 
 #head {
 	width:900px;
-	height:232x;
+	height:105x;
 	float:left;
 }
 #logo {
-	float:left;
-	background-image:url('images/hn.png');
-	width:623px;
-	height:114px;
+	margin: 0 auto;
+	background-image:url('images/emblem.png');
+	width:159px;
+	height:150px;
+	position: relative;
+	z-index: 1;
+	margin-top: 45px;
 }
 #dome {
 	width:93px;
@@ -157,14 +169,21 @@ img {
 	background-image:url('images/dome.png');
 }
 
+#nav-wrapper{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 
 #nav {
 	background-image:url('images/navbg.png');
 	width:100%;
 	height:35px;
-	float:left;
 	position:relative;
 	overflow: hidden;
+	margin-top: -90px;
+	z-index:0;
 }
 #nav ul {
 	margin:0 auto;
@@ -176,7 +195,9 @@ img {
 #nav li{
 	font-family:helvetica neue, helvetica, arial;
 	font-weight:bold;
-	font-size:22px;
+	font-size:17px;
+	padding-top: 2px;
+	letter-spacing: -1px;
 	list-style: none;
 	float: left;
 }
@@ -201,8 +222,8 @@ img {
 #content {
 	float:left;
 	width:900px;
-	margin-top:20px;
 	background-image:url('images/transbg.png');
+	background-color: rgba(0,0,0,.8);
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	-moz-box-shadow: 4px 4px 10px #131313;
@@ -212,6 +233,7 @@ img {
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
 	border-radius: 5px;
+	margin-top: 70px;
 }
 #meat {
 	width:520px;
@@ -230,7 +252,7 @@ img {
 #birdfeeder_logo {
 	width:503px;
 	height:119px;
-	background-image:url('images/birdfeeder.png');
+	background-image:url('images/news.png');
 	margin:0 auto;
 	margin-bottom:15px;
 	margin-top:-15px;
@@ -262,9 +284,15 @@ img {
 #featured_post p {
 	font-size: 10px;
 }
-.navigation{
-	clear: both;
-	margin:0 auto;
+#nav-left{
+	width:40%;
+	float: left;
+	overflow: hidden;
+}
+#nav-right{
+	width:40%;
+	float: right;
+	overflow: hidden;
 }
 object {
 	margin: 0 auto;
@@ -393,7 +421,8 @@ li.twitter-item{
 	clear:both;
 	min-height: 87px;
 	width:100%;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
+	background-color: #000;
 }
 #footer_content {
 	font-family:Verdana, Geneva, sans-serif;
@@ -625,4 +654,11 @@ li.twitter-item{
 	height: 300px;
 	clear: both;
 	margin-bottom: 15px;
+}
+
+p .more-link{
+	display: block;
+	clear: both;
+	margin: 15px 0 20px 0;
+	float: left;
 }
