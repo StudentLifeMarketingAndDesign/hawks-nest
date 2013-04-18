@@ -90,6 +90,9 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div class="wrapper">
+	<div class="main">
+
 		<a href="<?php echo home_url( '/' ); ?>">
 		<div id="head">
         <a href="http://www.uiowa.edu/"><div id="dome"></div></a>
@@ -116,6 +119,3 @@
 		</div>
 		  
 		  
-
-<div class="wrapper">
-	<div class="main">

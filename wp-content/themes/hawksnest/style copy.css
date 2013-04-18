@@ -19,13 +19,11 @@ body {
 	background-color:#000;
 	color:#FFF;
 	background-repeat:repeat;
-	margin-top:0px;
+	margin:0px;
 	padding:0px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	height: 100%;
-	width: 100%;
-	margin-left: 0px;
 	background-image:url('images/stripe.gif');
 }
 
@@ -151,19 +149,18 @@ img {
 /* Header and Nav */
 
 #head {
-	width:100%;
-	height:130px;
+	width:900px;
+	height:105x;
 	float:left;
-	background-color: rgba(0,0,0,.8);
-	margin-top: -10px;
 }
 #logo {
 	margin: 0 auto;
-	background-image:url('images/emblem2.png');
+	background-image:url('images/emblem.png');
 	width:159px;
 	height:150px;
 	position: relative;
-	z-index: 1
+	z-index: 1;
+	margin-top: 45px;
 }
 #dome {
 	width:93px;
