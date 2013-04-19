@@ -93,11 +93,6 @@
 		<a href="<?php echo home_url( '/' ); ?>">
 		<div id="head">
         <a href="http://www.uiowa.edu/"><div id="dome"></div></a>
-		</div>
-		</a>
-	</div>
-
-		<div id="logo"></div>
 		<div id="nav">
 		<div id="nav-wrapper">
            <div id="nav-left" role="navigation">
@@ -113,6 +108,11 @@
 				<?php wp_nav_menu( array('menu' => 'primary-right' )); ?>
 		  </div>
 		</div>
+		</div>
+		</a>
+	</div>
+
+		<div id="logo"></div>
 		</div>
 		  
 		  
