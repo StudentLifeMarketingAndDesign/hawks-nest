@@ -90,17 +90,12 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="wrapper">
-	<div class="main">
-
 		<a href="<?php echo home_url( '/' ); ?>">
 		<div id="head">
-        <a href="http://www.uiowa.edu/"><div id="dome"></div></a>
-		</div>
-		</a>
-	</div>
-
-		<div id="logo"></div>
+        <a href="http://www.uiowa.edu/">
+        <div class="main">
+        <div id="dome"></div></a>
+        </div>
 		<div id="nav">
 		<div id="nav-wrapper">
            <div id="nav-left" role="navigation">
@@ -117,5 +112,13 @@
 		  </div>
 		</div>
 		</div>
+		</a>
+	</div>
+
+		<div id="logo"></div>
+		</div>
 		  
 		  
+
+<div class="wrapper">
+	<div class="main">

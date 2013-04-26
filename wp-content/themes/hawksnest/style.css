@@ -19,13 +19,11 @@ body {
 	background-color:#000;
 	color:#FFF;
 	background-repeat:repeat;
-	margin-top:0px;
+	margin:0px;
 	padding:0px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	height: 100%;
-	width: 100%;
-	margin-left: 0px;
 	background-image:url('images/stripe.gif');
 }
 
@@ -151,21 +149,18 @@ img {
 /* Header and Nav */
 
 #head {
-	width:100%;
-	height:120px;
+	width:900px;
+	height:105x;
 	float:left;
-	background-color: rgba(0,0,0,.8);
-	margin-top: -20px;
-	border-bottom: 10px solid #ffd41c;
 }
 #logo {
 	margin: 0 auto;
-	background-image:url('images/emblem2.png');
+	background-image:url('images/emblem.png');
 	width:159px;
 	height:150px;
-	margin-top: 20px;
 	position: relative;
-	z-index: 1
+	z-index: 1;
+	margin-top: 45px;
 }
 #dome {
 	width:93px;
@@ -177,16 +172,18 @@ img {
 #nav-wrapper{
 	width: 900px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 
 #nav {
-	background-image:none;
+	background-image:url('images/navbg.png');
 	width:100%;
 	height:35px;
 	position:relative;
+	overflow: hidden;
+	margin-top: -90px;
 	z-index:0;
-	margin-top: 90px;
 }
 #nav ul {
 	margin:0 auto;
@@ -206,13 +203,18 @@ img {
 }
 
 #nav a{	
-	color:#fff;
+	color:#000;
 	text-decoration:none;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-color: #b79100;
 	padding-left:15px;
 	padding-right:15px;
 }
 #nav a:hover{
-	color:#ddd;
+	color:#776000;
 }
 
 /* Content */
